@@ -47,6 +47,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -10142,3 +10143,19 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
+#type{
+  display: inline;
+  border-right: 4px solid #6c757d;
+  animation: blink 1s infinite;
+  color: rgba(36, 129, 60, 0.7); 
+}
+
+@keyframes blink {
+  50%{
+    border-right: none;
+  }
+}
+
+
