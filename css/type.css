@@ -1,0 +1,12 @@
+#type{
+    display: inline;
+    border-right: 4px solid #6c757d;
+    animation: blink 1s infinite;
+    color: rgba(36, 129, 60, 0.7); 
+  }
+  
+  @keyframes blink {
+    50%{
+      border-right: none;
+    }
+  }

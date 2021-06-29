@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Luke Else</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Luke Else" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -83,14 +83,14 @@
                         <br />
 
                         E-Mail: 
-                        <a href="mailto:name@email.com">luke@luke-else.co.uk</a>
+                        <a href="mailto:luke@luke-else.co.uk">luke@luke-else.co.uk</a>
                     </div>
-                    <p class="lead mb-5">I am a Junior but well practised Software Developer. I have a great passion for learning, especially in topics oriented around Software Development, Networks and Backend Engineering. I am constantly striving to learn more whilst pushing myself to explore new technologies!</p>
+                    <p class="lead mb-5">I am a Junior but well-practised Software Developer. I have a great passion for learning, especially in topics oriented around Software Development, Networks and Backend Engineering. I am constantly striving to learn more whilst pushing myself to explore new technologies!</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/luke-else-a7183a205/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/lukejelse04"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://www.instagram.com/lukejelse04/"><i class="fab fa-instagram"></i></a>
-                        <a class="social-icon" href="assets/Luke Else - CV.pdf"><i class="fas fa-file-download"></i></a>
+                        <a target="_blank" class="social-icon" href="https://www.linkedin.com/in/luke-else-a7183a205/"><i class="fab fa-linkedin-in"></i></a>
+                        <a target="_blank" class="social-icon" href="https://github.com/lukejelse04"><i class="fab fa-github"></i></a>
+                        <a target="_blank" class="social-icon" href="https://www.instagram.com/lukejelse04/"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" class="social-icon" href="assets/Luke Else - CV.pdf"><i class="fas fa-file-download"></i></a>
                     </div>
                 </div>
             </section>
@@ -228,7 +228,7 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
                     <p>In my spare time, I will often find myself working on some of my smaller projects such as websites for my friends which I host on my own rented cloud servers. As well as this, I am quite interested in reading about system exploits as it is something that I can apply to my own work in order to keep it safe and secure.</p>
-                    <p>I am also an avid member of VATSIM flight simulation community and spend my evening interacting with the many members that it holds. I operate as a virtual air traffic controller on one of the biggest virtual flight networks in the world, VATSIM. In addition, I will also fly on the network in some of the many events they host each week.</p>
+                    <p>I am also an avid member of the VATSIM flight simulation community and spend my evenings interacting with the many members that it holds. I operate as a virtual air traffic controller and will also find myself flying on the network in some of the many events they host each week.</p>
                     <p class="mb-0">From 2015 to 2020 I was also in the 'Royal Air Force Air Cadets' which taught me a lot of leadership, communication and problem solving skills. Whilst there, I partook in the Bronze Duke Of Edinburgh award and joined the squadron band which were both tough but rewarding experiences. Throughout the year we would attend many parades in which drill and discipline standard had to be impeccable.</p>
                 </div>
             </section>
