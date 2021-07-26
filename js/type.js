@@ -6,7 +6,6 @@ class typer{
         this.item = document.getElementById("type");
         this.text = text;
         this.retypeText = retypeText;
-        this.type();
     }
 
     type(){
@@ -22,7 +21,7 @@ class typer{
                 this.i = 0;
                 setTimeout(() => {
                     this.retype();
-                }, 3000);
+                }, 2000);
             }
         }
     }
@@ -36,7 +35,7 @@ class typer{
             }, 100);
         }else{
             this.x++;
-            //this.x > this.text.length -1 == loop
+            //this.x > this.text.length -1        || loop
             if(this.x >= this.text.length - 1){
                 //this.x = 0;
                 this.retypeText = false;
@@ -46,4 +45,8 @@ class typer{
     }
 }
 
-var work = new typer(["//Junior Software Developer", "//Aspiring Backend Engineer"], true);
+var pagetyper = new typer(["//Junior Software Developer", "//Aspiring Backend Engineer"], true);
+
+setTimeout(() =>{
+    pagetyper.type();
+}, 750)
