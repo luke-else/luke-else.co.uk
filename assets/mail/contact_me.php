@@ -19,8 +19,8 @@ if ($_POST['name'] != null && $_POST['email'] != null && $_POST['message'] != nu
       $mail->isSMTP();                                            //Send using SMTP
       $mail->Host       = 'in-v3.mailjet.com';                   //Set the SMTP server to send through
       $mail->SMTPAuth   = true; 
-      $mail->Username = '81beb205b1d9a4190b9acb3fa94fc024';
-      $mail->Password = 'ec979bd6ac550f5c141148665c0e4296';                 
+      $mail->Username = '';
+      $mail->Password = '';                 
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
       $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
